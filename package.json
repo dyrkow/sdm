@@ -4,17 +4,27 @@
     "description": "Simple dialog manager",
     "main": "index.js",
     "scripts": {
-        "build": "tsc --project ./tsconfig.json",
+        "clean": "rm -rf build && rm -rf ./tsconfig.tsbuildinfo",
+        "build": "yarn clean && tsc --project ./tsconfig.json",
         "test": "jest"
     },
+    "files": [
+        "build/**/*.ts",
+        "!build/**/*.spec.js"
+    ],
     "repository": "git@github.com:dyrkow/sdm.git",
     "author": "dyrkow <webworkdeveloper@gmail.com>",
     "license": "MIT",
     "private": false,
     "devDependencies": {
         "@dyrkow/editor-config": "^1.0.0",
+        "@dyrkow/eslint-config": "^1.0.1",
+        "@dyrkow/eslint-config-typescript": "^1.0.1",
+        "@dyrkow/prettier-config": "^1.0.0",
         "@types/jest": "^29.5.0",
+        "eslint": "^8.36.0",
         "jest": "^29.5.0",
+        "prettier": "^2.8.7",
         "ts-jest": "^29.0.5",
         "typescript": "^5.0.2"
     }

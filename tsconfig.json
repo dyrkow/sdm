@@ -24,6 +24,6 @@
         "rootDir": "src",
         "sourceMap": false
     },
-    "include": ["src/**/*.ts", "src/**/*.json"],
-    "exclude": ["node_modules", "build", "src/**/*spec*", "src/**/*test*"]
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "build"]
 }
