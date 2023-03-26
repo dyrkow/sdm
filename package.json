@@ -1,0 +1,10 @@
+{
+  "name": "@dyrkow/simple-dialog-manager",
+  "version": "1.0.0",
+  "description": "Simple dialog manager",
+  "main": "index.js",
+  "repository": "git@github.com:dyrkow/sdm.git",
+  "author": "dyrkow <webworkdeveloper@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
