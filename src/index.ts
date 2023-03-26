@@ -1,3 +1,3 @@
-import { hello } from '@project/another';
+import { hello } from "@project/another";
 
 console.log(hello());
